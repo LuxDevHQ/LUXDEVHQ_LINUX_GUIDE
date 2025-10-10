@@ -1,8 +1,5 @@
 ## Beginner Phase (Essentials)
 
-These are the first commands every Linux user must know.  
-They help you navigate, manage files, and view basic system info.
-
 ### **File & Directory Management**
 - `ls` → List files and directories  
 - `pwd` → Show current working directory  
