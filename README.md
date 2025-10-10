@@ -1,4 +1,4 @@
-### **Top 50 Linux Commands You Must Know (Detailed Guide)**
+### **Linux Essentials: A Step-by-Step Command Guide by LuxDevHQ**
 
 ---
 
