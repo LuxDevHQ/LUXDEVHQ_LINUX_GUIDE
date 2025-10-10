@@ -1,6 +1,3 @@
-These are for system administrators and advanced Linux users.  
-They help in monitoring, networking, automation, and security.
-
 ### **System Monitoring & Performance**
 - `top` → Show running processes  
 - `htop` → Interactive process manager  
