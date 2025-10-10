@@ -1,6 +1,3 @@
-Once you’re comfortable with basics, these commands make you more productive.  
-They include searching, compression, package management, and monitoring.
-
 ### **Searching & Comparing**
 - `grep` → Search text inside files  
 - `find` → Search files by name/type/date  
