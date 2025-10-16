@@ -7,18 +7,17 @@ SSH (Secure Shell) lets you open an encrypted terminal session to a remote machi
 ssh <username>@<server_address>
 ```
 
->> Example: connect as user 'ubuntu' to server at 203.0.113.10
+> Example: connect as user 'ubuntu' to server at 203.0.113.10
 ```
 ssh ubuntu@203.0.113.10
 ```
 
->> If the server uses a custom port (e.g., 2222)
+> If the server uses a custom port (e.g., 2222)
 ```
 ssh -p 2222 <username>@<server_address>
 ```
 
->> Using a specific private key
->>
+> Using a specific private key
 ```
 ssh -i ~/.ssh/id_ed25519 <username>@<server_address>
 ```
