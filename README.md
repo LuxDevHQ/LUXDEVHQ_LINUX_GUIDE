@@ -1,7 +1,28 @@
-### **Linux Essentials: A Step-by-Step Command Guide by LuxDevHQ**
+## **Linux Essentials: A Step-by-Step Command Guide by LuxDevHQ**
 
+### Basic SSH connection
+SSH (Secure Shell) lets you open an encrypted terminal session to a remote machine, typically with ssh <username>@<server_address>. On first connect, you’ll be asked to verify the server’s host key, then authenticate with a password or—preferably—an SSH key you created with ssh-keygen and installed via ssh-copy-id. If the server uses a custom port, add -p <port>, and if you need a specific key file, use -i <path_to_private_key>. For convenience, you can define a short alias in ~/.ssh/config so you can just run ssh myserver.
+
+```
+ssh <username>@<server_address>
+```
+
+>> Example: connect as user 'ubuntu' to server at 203.0.113.10
+```
+ssh ubuntu@203.0.113.10
+```
+
+>> If the server uses a custom port (e.g., 2222)
+```
+ssh -p 2222 <username>@<server_address>
+```
+
+>> Using a specific private key
+>>
+```
+ssh -i ~/.ssh/id_ed25519 <username>@<server_address>
+```
 ---
-
 ### File & Directory Management
 
 #### **`ls` (List)**  
