@@ -2,9 +2,9 @@
 
 ---
 
-## File & Directory Management
+### File & Directory Management
 
-### **`ls` (List)**  
+#### **`ls` (List)**  
 Lists directory contents.  
 
 - `ls` → Lists files and directories in the current directory  
@@ -16,14 +16,14 @@ Lists directory contents.
 
 ---
 
-### **`pwd` (Print Working Directory)**  
+#### **`pwd` (Print Working Directory)**  
 Displays the current directory path.  
 
 - `pwd` → Prints the absolute path  
 
 ---
 
-### **`cd` (Change Directory)**  
+#### **`cd` (Change Directory)**  
 Navigates through directories.  
 
 - `cd <directory_path>` → Moves to directory  
@@ -34,7 +34,7 @@ Navigates through directories.
 
 ---
 
-### **`mkdir` (Make Directory)**  
+#### **`mkdir` (Make Directory)**  
 Creates new directories.  
 
 - `mkdir <directory_name>` → Makes directory  
@@ -44,7 +44,7 @@ Creates new directories.
 
 ---
 
-### **`mv` (Move/Rename)**  
+#### **`mv` (Move/Rename)**  
 Moves or renames files and directories.  
 
 - `mv old_file.txt new_file.txt` → Rename  
@@ -52,7 +52,7 @@ Moves or renames files and directories.
 
 ---
 
-### **`cp` (Copy)**  
+#### **`cp` (Copy)**  
 Copies files and directories.  
 
 - `cp <source> <destination>` → Copy file  
@@ -62,7 +62,7 @@ Copies files and directories.
 
 ---
 
-### **`rm` (Remove)**  
+#### **`rm` (Remove)**  
 Deletes files or directories.  
 
 - `rm <file>` → Delete file  
@@ -71,14 +71,14 @@ Deletes files or directories.
 
 ---
 
-### **`touch`**  
+#### **`touch`**  
 Creates empty files or updates timestamps.  
 
 - `touch file.txt`
 
 ---
 
-### **`ln` (Link)**  
+#### **`ln` (Link)**  
 Creates symbolic or hard links.  
 
 - `ln -s <source> <link>` → Symbolic link  
@@ -86,21 +86,21 @@ Creates symbolic or hard links.
 
 ---
 
-### **`clear`**  
+#### **`clear`**  
 Clears the terminal screen.  
 
 ---
 
-## Viewing & Editing Files
+### Viewing & Editing Files
 
-### **`cat` (Concatenate)**  
+#### **`cat` (Concatenate)**  
 Displays file contents.  
 
 - `cat file.txt`
 
 ---
 
-### **`echo`**  
+#### **`echo`**  
 Prints text or variables.  
 
 - `echo "Hello Linux"`  
@@ -115,16 +115,16 @@ Views file one page at a time.
 
 ---
 
-### **`man` (Manual)**  
+#### **`man` (Manual)**  
 Shows documentation.  
 
 - `man ls`  
 
 ---
 
-## System Information
+### System Information
 
-### **`uname` (Unix Name)**  
+#### **`uname` (Unix Name)**  
 Displays system info.  
 
 - `uname -a` → Full details  
